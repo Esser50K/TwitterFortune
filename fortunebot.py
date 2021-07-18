@@ -31,7 +31,7 @@ while True:
     random.shuffle(HASHTAGS)
     hashtags = HASHTAGS
     if len(hashtags) > MAX_TAGS:
-        hashtags = hashtags[:MAX_TAGS]
+        hashtags = hashtags[:random.randint(1, MAX_TAGS)]
 
     hashtags = "\n" + " ".join(map(lambda x: "#"+x, hashtags))
     fortune = ""
