@@ -5,6 +5,7 @@ This is a very simple bot that uses the `fortune` command line tool to generate 
 You can pass your secrets as environment variables to your docker container.
 
 You can also use the `OFFENSIVE` environment key to use `fortune` in offensive mode. USE AT OWN DISCRETION.
+Video of what happens when you use it can be found [here](https://www.youtube.com/watch?v=5nnVj1i3Si4)
 
 Complete example:
 
